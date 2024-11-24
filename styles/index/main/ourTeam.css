@@ -1,0 +1,73 @@
+.ourTeam{
+    background-image: linear-gradient(to bottom, #fff0, #fff), url(/resources/images/patternCubos.webp);
+    width: 100%;
+    display: grid;
+    margin-top: 30px;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 50px 1fr 1fr;
+    position: relative;
+    box-shadow: inset 0 11px 11px -5px #0003;
+}
+
+.enterTeamUp{
+grid-row: 2;
+display: grid;
+grid-template-columns: 200px 500px 800px ;
+width: 100%;
+align-items: center;
+}
+.decorationTeamUp > img{
+    max-height: 200px;
+    grid-column: 1 / 2;
+    grid-column: 1;
+}
+
+.textTeamUp{
+    grid-column: 2;
+    
+}
+
+.characterizeTeam{
+    grid-column: 3;
+    background-color:#1d4289 ;
+    padding: 40px;
+}
+
+.titleTeam{
+    margin-top: 30px;
+    color: #ff808b;
+    font-size: 40px;
+    text-shadow: -1px 0px 5px rgb(255 255 255);
+}
+.paragraphTitleTeam{
+    text-wrap: balance;
+    margin-top: 20px;
+    text-shadow: -1px 0px 5px rgb(255 255 255);
+    font-family: Calibri, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 1.5rem;
+    word-spacing: 3px;
+}
+.characterizeTeam{
+    width: 100%;
+
+}
+
+.listTeamUp{
+    list-style-type: none;
+    color: #fff;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    unicode-bidi: isolate;
+}
+
+.title2Team{
+    color: #ff808b;
+    font-size: 20px;
+
+}
